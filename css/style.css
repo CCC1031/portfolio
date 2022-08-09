@@ -18,26 +18,11 @@ i.icon {
   line-height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  color: #222;
-}
-
 b {
   font-weight: bold;
 }
 
-/* Other elements */
+/*  elements */
 a {
   transition: all 0.15s ease-in-out;
 }
@@ -81,6 +66,58 @@ hr {
   color: #fff;
 }
 
+
+.main-wrapper {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 235px;
+  z-index: 999;
+}
+
+.main-wrapper .sections-wrapper {
+  padding-left: 735px;
+  position: relative;
+}
+.sidebar {
+  display: none; 
+}
+
+@media (max-width: 991.98px) {
+  .main-wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+  }
+  .sections-wrapper {
+    width: 100%;
+    margin-top: -30px;
+    overflow: hidden;
+  }
+  #navbar-example2 {
+    left: -125px;
+  }
+  .sidebar {
+    display: none; 
+  }
+}
+/* wrapper */
+
+@media (max-width: 768.98px) {
+ .sections-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 768.98px) {
+   .mobile-navbar {
+     width: 100%;
+   }
+   #navbar-example2 {
+   display: none;
+  }
+}
 /* Section*/
 .single-section {
   background-color: #fff;
@@ -123,6 +160,9 @@ hr {
 @media (max-width: 767.98px) {
   .single-section .section-heading>.section-description {
     font-size: 14px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -135,6 +175,8 @@ hr {
     font-size: 34px;
   }
 }
+
+
 
 
 .element-cover-bg {
@@ -213,20 +255,53 @@ hr {
   outline: 0;
 }
 
+.main-wrapper {
+  height: 100%;
+  left: 0;
+  position: fixed; 
+  top: 0; 
+  width: -235px; 
+  z-index: 99; 
+}
+
 .main-wrapper .sections-wrapper {
-  padding-left: 235px;
+  padding: 235px;
   position: relative;
 }
 
 @media (max-width: 991.98px) {
   .main-wrapper .sidebar {
-    left: -235px;
+    left: 5px;
   }
 
   .main-wrapper .sections-wrapper {
     padding-left: 0;
   }
 }
+
+@media (max-width: 650.98px) {
+  .main-wrapper .sidebar {
+    margin: 0px;
+  }
+
+  .main-wrapper .sections-wrapper {
+    padding-left: 0;
+  }
+}
+
+
+
+@media (max-width: 390px) {
+  .sidebar {
+    margin: 0px;
+    display:none; 
+  }
+
+  .main-wrapper .sections-wrapper {
+    padding: 0;
+  }
+}
+
 .preloader {
   background-color: #0e0e0e;
   height: 100%;

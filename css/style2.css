@@ -51,6 +51,8 @@
   height: 100px;
   margin-left: -500px;
   /* margin-left: -900px; */
+  background-size:;
+  background-repeat: ;
 }
 
 /* .img-thumbnail {
@@ -61,3 +63,103 @@
   max-width: 100%;
   padding: 0.25rem;
 } */
+
+
+
+/* Sidebar*/
+.sidebar {
+  background-color: #111;
+}
+
+.sidebar .sidebar-header {
+  padding-bottom: 60px;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.sidebar .sidebar-header .sidebar-avatar {
+  border: 5px solid #484848;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  width: 110px;
+}
+
+.sidebar .sidebar-header .sidebar-name {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sidebar .sidebar-header .sidebar-status {
+  color: #8a8a8a;
+  display: block;
+  line-height: 100%;
+  margin-bottom: 0;
+  margin-top: 9px;
+}
+
+.sidebar .sidebar-menu {
+  padding-bottom: 24px;
+}
+
+.sidebar .sidebar-menu .list-menu {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.sidebar .sidebar-menu .list-menu li {
+  line-height: 100%;
+}
+
+.sidebar .sidebar-menu .list-menu li:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.sidebar .sidebar-menu .list-menu .nav-link {
+  color: rgba(232, 232, 232, 0.95);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  padding: 0;
+}
+
+.sidebar .simplebar-content-wrapper {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -ms-flex-wrap: wrap;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sidebar .simplebar-track .simplebar-scrollbar:before {
+  background: #fff;
+}
+
+.sidebar .simplebar-track .simplebar-scrollbar.simplebar-visible:before {
+  opacity: 0.5;
+}
+
+.sidebar .simplebar-track.simplebar-vertical {
+  width: 10px;
+}
+
+.sidebar .simplebar-track.simplebar-vertical .simplebar-scrollbar {
+  height: auto;
+  width: 6px;
+}
+
+.sidebar .simplebar-track.simplebar-horizontal {
+  height: 10px;
+}
+
+.sidebar .simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+  height: 6px;
+  width: auto;
+}
+
+
