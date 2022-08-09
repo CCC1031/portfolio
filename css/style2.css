@@ -54,7 +54,8 @@
 }
 
 #portfolio-area {
-	background: linear-gradient(159deg, rgba(0,6,83,1) 0%, rgba(8,17,108,1) 21%, rgba(65,73,154,1) 44%, rgba(75,77,97,1) 68%, rgba(177,177,179,1) 86%);
+	/* background: linear-gradient(159deg, rgba(0,6,83,1) 0%, rgba(8,17,108,1) 21%, rgba(65,73,154,1) 44%, rgba(75,77,97,1) 68%, rgba(177,177,179,1) 86%); */
+  background-color: rgb(179, 179, 179);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	        animation: gradient 15s ease infinite;

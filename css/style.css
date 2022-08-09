@@ -791,12 +791,12 @@ hr {
 }
 .single-item {
   border: 2px solid rgb(103, 101, 101); 
-  height: 350px; 
-  padding: -40px 0;
+  height: 325px; 
+  padding: 20px 0;
   border-radius: 10px;
   margin: 0; 
   width: 300px;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(0, 0, 0);
 }
 .single-item span {
   /* border: 1px solid rgb(182, 181, 181);  */
@@ -807,6 +807,9 @@ hr {
 } */
 .single-section .section-title2 {
    color: white; 
+}
+.single-section .section-description{
+  color: white; 
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper {
   -ms-flex-align: center;
@@ -838,7 +841,7 @@ hr {
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper>.img-fluid1 {
   border: 8px solid rgb(64, 64, 64); 
-  height: auto; 
+  height: 175px; 
   padding: 0px;
   width: 100%;
   border-radius: 10px;
