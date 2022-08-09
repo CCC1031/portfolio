@@ -792,19 +792,19 @@ hr {
 .single-item {
   border: 2px solid rgb(103, 101, 101); 
   height: 350px; 
-  padding: 40px 0;
+  padding: -40px 0;
   border-radius: 10px;
   margin: 0; 
-  width: 200px;
-  background-color: rgb(205, 205, 205);
+  width: 300px;
+  background-color: rgb(239, 239, 239);
 }
 .single-item span {
-  border: 1px solid rgb(182, 181, 181); 
+  /* border: 1px solid rgb(182, 181, 181);  */
 }
 
-#portfolio-area {
+/* #portfolio-area {
   background-color: #020942;
-}
+} */
 .single-section .section-title2 {
    color: white; 
 }
@@ -837,10 +837,11 @@ hr {
   height: 400px;  */
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper>.img-fluid1 {
-  border: 8px solid black; 
+  border: 8px solid rgb(64, 64, 64); 
   height: auto; 
   padding: 0px;
   width: 100%;
+  border-radius: 10px;
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper .item-content {
   left: 0;
