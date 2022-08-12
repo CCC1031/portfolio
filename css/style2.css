@@ -83,3 +83,23 @@
 		background-position: 0% 50%;
 	}
 }
+
+.about-area .about-content .content-download{
+  color: white; 
+  background-color: rgb(77, 118, 243);
+}
+.about-area .about-content .content-download:hover{
+  
+  color: white; 
+  background-color: rgb(2, 2, 154);
+}
+
+.about-area .about-content .content-work{
+  color: black; 
+  background-color: rgb(229, 232, 245); 
+}
+.about-area .about-content .content-work:hover{
+  
+  color: black;
+  background-color: rgb(77, 118, 243);
+}
