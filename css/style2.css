@@ -103,3 +103,13 @@
   color: black;
   background-color: rgb(77, 118, 243);
 }
+
+.project-titles {
+  font-size: 1.25rem;
+  margin-top: -15px;
+}
+
+#project-btn {
+  color:red;
+  background: blue;
+}
