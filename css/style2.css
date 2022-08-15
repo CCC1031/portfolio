@@ -120,3 +120,26 @@
 #ecvoimg {
   height: 100px; 
 }
+
+.info-content1 {
+  margin-left: 80px;
+}
+#email {
+  margin-left: 80px;
+}
+.c {
+  margin-left: 900px;
+}
+
+#skills {
+  background-color: lightgray;
+  height: 400px;
+}
+#icons {
+  width: 60px; 
+  height: 60px; 
+}
+
+.skillst {
+  /* margin-left: 500px;  */
+}
