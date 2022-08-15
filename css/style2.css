@@ -110,6 +110,16 @@
 }
 
 #project-btn {
-  color:red;
-  background: blue;
+  color:white;
+  /* background: rgb(77, 118, 243); */
+  /* margin-left: 325px;  */
+  /* border: none; 
+  width: 105px;  */
+  cursor: pointer;
+}
+#projectbtn {
+  /* margin-left: 230px; */
+}
+#ecvoimg {
+  height: 100px; 
 }
