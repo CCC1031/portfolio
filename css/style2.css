@@ -1,14 +1,13 @@
 #navbar-example {
   padding: 0px; 
   margin: 0; 
-  /* opacity: .9; */
   z-index: 99;
 
 }
 #navbar-example2 {
   padding: 0px; 
   margin: 0; 
-  margin-top: -80px;
+  margin-top: -180px;
   z-index: 99;
   padding: 0px 30px 30px 30px;
   width: 135%;
@@ -32,15 +31,12 @@
   margin-top: 170px;
   font-family: 'Dosis', sans-serif;
 }
-
 .home-area .home-headline {
   color: #fff;
   font-size: 32px;
   font-weight: 400;
   letter-spacing: 0.3px;
   margin-bottom: 0;
-   
-
   font-family: 'Dosis', sans-serif;
 }
 
@@ -55,7 +51,7 @@
 
 #portfolio-area {
 	/* background: linear-gradient(159deg, rgba(0,6,83,1) 0%, rgba(8,17,108,1) 21%, rgba(65,73,154,1) 44%, rgba(75,77,97,1) 68%, rgba(177,177,179,1) 86%); */
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(255, 255, 255);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	        animation: gradient 15s ease infinite;
