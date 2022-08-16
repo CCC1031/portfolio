@@ -128,7 +128,7 @@
   margin-left: 80px;
 }
 .c {
-  margin-left: 900px;
+  margin-left: 1200px;
 }
 
 #skills {
@@ -140,6 +140,6 @@
   height: 60px; 
 }
 
-.skillst {
-  /* margin-left: 500px;  */
+.java {
+  border-radius: 8px;
 }

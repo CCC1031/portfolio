@@ -566,6 +566,7 @@ hr {
 
   .home-area .home-name {
     font-size: 62px;
+    justify-items: center;
   }
 
   .home-area .home-headline {
@@ -804,9 +805,8 @@ hr {
 /* #portfolio-area {
   background-color: #020942;
 } */
-.single-section .section-title2 {
-   /* color: white;  */
-}
+/* .single-section .section-title2 {
+} */
 .single-section .section-description{
   color: white; 
 }
