@@ -2,9 +2,9 @@
   outline: none;
 }
 
-::-moz-focus-inner {
+/* ::-moz-focus-inner {
   border: 0;
-}
+} */
 body {
   background-color: #fff;
   color: #333;
@@ -13,7 +13,7 @@ body {
   font-weight: 400;
   line-height: 1.95;
   position: relative;
-  overflow-x:hidden;
+  overflow:hidden;
 }
 i.icon {
   line-height: 100%;
@@ -104,6 +104,7 @@ hr {
 /* wrapper */
 
 @media (max-width: 768.98px) {
+ 
  .sections-wrapper {
     width: 100%;
     overflow: hidden;
@@ -280,6 +281,9 @@ hr {
 }
 
 @media (max-width: 650.98px) {
+  body {
+    overflow: hidden;
+  }
   .main-wrapper .sidebar {
     margin: 0px;
   }
@@ -734,6 +738,9 @@ hr {
 }
 
 @media (max-width: 575.98px) {
+  body {
+    overflow: hidden;
+  }
   .about-area {
     padding-bottom: 51px;
   }
