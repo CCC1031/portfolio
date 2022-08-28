@@ -723,9 +723,6 @@ hr {
 }
 
 @media (max-width: 575.98px) {
-  body {
-    overflow: hidden;
-  }
   .about-area {
     padding-bottom: 51px;
   }
