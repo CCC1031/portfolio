@@ -122,12 +122,13 @@
 }
 
 .info-content1 {
-  margin-left: 80px;
+  margin-left: 10px;
+  display: unset; 
 }
-#email {
-  margin-left: 80px;
+.social-medias {
+  display: flex; 
 }
-.c {
+.copy-right {
   margin-left: 1200px;
 }
 
@@ -166,8 +167,3 @@
   }
 }
 
-/* @media (max-width: 575.98px) {
-  body {
-    overflow: hidden;
-  }
-} */
